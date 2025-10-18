@@ -9,3 +9,4 @@ export function initDatabase() {
   const connection = mongoose.connect(DATABASE_URL)
   return connection
 }
+
